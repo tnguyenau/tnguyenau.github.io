@@ -1,9 +1,9 @@
 ---
 title: Contact
-author: Tao He
-date: 2022-02-05
+author: Tanya Nguyen
+date: 2025-08-26
 category: Jekyll
 layout: post
 ---
 
-This is an contact page.
+Have any questions? Please contact us at [AU Library](mailto:library@athabascau.ca).

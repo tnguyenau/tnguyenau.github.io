@@ -1,16 +1,17 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
+title:            Data and RDM
+longtitle:        Data and RDM Learning Resources - Athabasca University Library
+author:           Tanya Nguyen
+email:            library@athabascau.ca
 description: >
-  Build Jekyll site with the GitBook style.
+  A collection of learning resources on research data management (RDM) and data literacy.
+  Created by Athabasca University Library.
 
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://sighingnow.github.io'
-baseurl:          '/jekyll-gitbook'
+url:              'https://tnguyenau.github.io/'
+baseurl:          ''
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
