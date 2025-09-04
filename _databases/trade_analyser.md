@@ -1,10 +1,10 @@
 ---
-title: CHASS Trade Analyser Canadian International Merchandise Trade (CIMT) Database
+title: CHASS Trade Analyser
 author: Tanya Nguyen
-date: 2025-08-26
 category: Jekyll
 layout: post
 ---
+
 # Introduction
 
 **Database Availability**: To current Athabasca staff and students

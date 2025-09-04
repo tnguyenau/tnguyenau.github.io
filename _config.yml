@@ -1,5 +1,5 @@
 # Configurations
-title:            Data and RDM
+title:            Data and RDM Learning Hub
 longtitle:        Data and RDM Learning Resources - Athabasca University Library
 author:           Tanya Nguyen
 email:            library@athabascau.ca
@@ -54,14 +54,17 @@ collections:
   pages:
     output: true
     permalink: /:collection/:path/
-  others:
+  databases:
     output: true
     permalink: /:collection/:path/
 
 ordered_collections:
-  - posts
   - pages
-  - others
+  - title: Home 
+    order: 1
+  - title: Contact
+    order: 2
+  - databases
 
 page_width: 800px
 

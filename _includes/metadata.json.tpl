@@ -40,7 +40,7 @@
             },
         },
         "theme": "default",
-        "author": "Tao He",
+        "author": "Tanya Nguyen",
         "pdf": {
             "pageNumbers": true,
             "fontSize": 12,
