@@ -48,16 +48,16 @@ You will need to submit a query to pull data from these tables. However, since t
 5. You can continue to search different HS names or HS codes at a time, and can add multiple HS codes to your query (separate each code with a single space).
 6. To remove the HS code, uncheck the box.
 7. Once you have selected the HS codes of your choice (i.e. 0804300020 = pineapples, dried; 4409101020 = Flooring, coniferous (softwood)), select “-add codes to query-”. Now close the Trade HS Commodities Search box or minimize the box to return to the database.
-![This is a screenshot of the Trade HS Commodities Search as explained in the HS10 Imports Monthly Data section. It shows apple as a keyword being searched and 120 records were found. Pineapples, dried is selected.](_site\assets\images\commodities-search.png)
+![This is a screenshot of the Trade HS Commodities Search as explained in the HS10 Imports Monthly Data section. It shows apple as a keyword being searched and 120 records were found. Pineapples, dried is selected.](/assets/images/commodities-search.png)
 
 ## Step 2: Specify provinces of clearance for retrieval
 Select the provinces you want to include in your retrieval for the commodities. If unselected, it will search all 13 provinces.
 
-![This is a screenshot of Step 2 showing the 13 provinces that can be selected to search for imported commodities.](_site\assets\images\province-clearance.png)
+![This is a screenshot of Step 2 showing the 13 provinces that can be selected to search for imported commodities.](/assets/images/province-clearance.png)
  
 ## Step 3: Specify countries of origin for retrieval
 Select the countries you want to include in your retrieval for commodities. If unselected, it will search for all 287 countries.
-![This is a screenshot of Step 3 showing the 287 provinces that can be selected to search for imported commodities.](_site\assets\images\countries-origin.png)
+![This is a screenshot of Step 3 showing the 287 provinces that can be selected to search for imported commodities.](/assets/images/countries-origin.png)
  
 ## Step 4: Specify a time frame
 1.	Select the start date and end date for the time period selection. The format can be in yyyy-mm or yyyy. Note this database only covers years from 1988 to 2014.
@@ -71,7 +71,7 @@ Select the countries you want to include in your retrieval for commodities. If u
 ## Query Completed Job
 1.	If the query was successful, a message will show the job was completed and the link to the files can be downloaded or viewed.
 
-![A screenshot of the completed job query was ran and two Excel sheets can be downloaded.](_site\assets\images\query-job.png)
+![A screenshot of the completed job query was ran and two Excel sheets can be downloaded.](/assets/images/query-job.png)
 
 2.	For the most part, you will only need the file on the right-hand side of the split window screen.
 3.	The CSV file should be simple to interpret, and the columns at the top for the import or export tables are:
@@ -84,3 +84,7 @@ Select the countries you want to include in your retrieval for commodities. If u
     7. reexport-Re-export indicator (N=N, Y=Yes): from the Export Tables
     8. quantity-Quantity
     9. value-Value ($CDN)
+
+---
+ _Data and RDM Learning Hubg © 2025 by Tanya Nguyen is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). To view a copy of this license, visit [https://creativecommons.org/licenses/by-nc-sa/4.0/](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+ Jekyll Theme forked from [Tao He](https://sighingnow.github.io/jekyll-gitbook/)_

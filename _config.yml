@@ -60,10 +60,6 @@ collections:
 
 ordered_collections:
   - pages
-  - title: Home 
-    order: 1
-  - title: Contact
-    order: 2
   - databases
 
 page_width: 800px
