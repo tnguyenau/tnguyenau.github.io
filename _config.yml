@@ -57,10 +57,14 @@ collections:
   databases:
     output: true
     permalink: /:collection/:path/
+  courses:
+    output: true
+    permalink: /:collection/:path/
 
 ordered_collections:
-  - pages
   - databases
+  - courses
+  - pages
 
 page_width: 800px
 
