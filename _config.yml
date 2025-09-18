@@ -60,11 +60,15 @@ collections:
   courses:
     output: true
     permalink: /:collection/:path/
+  rdm:
+    output: true
+    permalink: /:collection/:path/
 
 ordered_collections:
+  - pages
+  - rdm
   - databases
   - courses
-  - pages
 
 page_width: 800px
 
