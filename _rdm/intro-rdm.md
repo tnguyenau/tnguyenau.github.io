@@ -13,6 +13,21 @@ We will then move into discussing emerging requirements for RDM in the funding a
 
 We all also dive into RDM considerations for creating a data management plan before creating a data management plan with [DMP Assistant](https://dmp-pgd.ca/){:target="_blank"}.
 
+# Handout
+[Download Handout](/assets/pdf/2025-10-15_IntroToRDM_handout.pdf){:target="_blank"}
+
+<iframe src="/assets/pdf/2025-10-15_IntroToRDM_handout.pdf" 
+    style="width:100%; height:80vh; border:none;"
+    allowfullscreen></iframe>
+
+# Slides
+[Download Slides](/assets/pdf/2025-10-15_FGSseries_IntroToRDM_Slides.pdf){:target="_blank"}
+
+<iframe 
+  src="/assets/pdf/2025-10-15_FGSseries_IntroToRDM_Slides.pdf"
+  style="width:100%; height:80vh; border:none;"
+  allowfullscreen></iframe>
+
 # What is RDM?
 **Research data management** is a general term for how you plan for and carry out the handling of your data for your research project from the planning stages through data gathering/generation, active analysis, and into data deposit or long-term storage and preservation as a project is completed. 
 
@@ -212,18 +227,129 @@ The Tri-Council Policy Statement: Ethical Conduct for Research Involving Humans 
 
 When thinking about that data deposit requirement coming into place, the TCPS had a section added into it about broad consent for storage of data and human biological materials for future and unspecified research. So there are some particular things that you need to think about early on in your ethics application process that will be relevant throughout your research project.
 
+# Document Your Data and Processes
+Plan for how you will collect, store, and analyze your data. Consider data security, and ethics requirements. 
 
-# Handout
-[Download Handout](/assets/pdf/2025-10-15_IntroToRDM_handout.pdf){:target="_blank"}
+A key piece to consider is data security needs, which may be based on ethics requirements for human participants or other obligations (e.g., intellectual property and other forms of research agreements which may have data residency requirements).
 
-<iframe src="/assets/pdf/2025-10-15_IntroToRDM_handout.pdf" 
-    style="width:100%; height:80vh; border:none;"
-    allowfullscreen></iframe>
+NOTE that on some projects this detailed documentation might be kept in other lab procedural documents. A DMP would then note the existence of those documents.
 
-# Slides
-[Download Slides](/assets/pdf/2025-10-15_FGSseries_IntroToRDM_Slides.pdf){:target="_blank"}
+(So the next section here in your data management plan might cover documenting your data and the processes you’re using. So do you have a data collection protocol? If you’re doing interview research that might be a script that you use to start your interviews. It might also be a file naming convention that you’re using for how you’re saving different versions of your file. Think about how that data can be described and documented. In some fields, there may be metadata standards you use or a data dictionary you create. Do you need different versions of your files? Can you use version control tools? A useful thing to stop and do here too is think about you may know where you’ve saved things and how they are now. If you have to come back in 5 or 10 years will there be enough documentation with you data for you to know what you did? )
 
-<iframe 
-  src="/assets/pdf/2025-10-15_FGSseries_IntroToRDM_Slides.pdf"
-  style="width:100%; height:80vh; border:none;"
-  allowfullscreen></iframe>
+## File Naming
+Develop and record your conventions for naming and storage. Folder structures can be outlined in a readme file.
+
+
+There are some general considerations that are good to follow for file naming. Some questions think of when creating file names:
+* Does your project or experiment have a name or acronym you can include in the file name? 
+* Is it location specific? Are there spatial coordinates or location names you want to include for samples in your file names? 
+* Are there multiple researchers? Do you need to put research names or initials if they’re the ones doing an interview or collecting a set of data?
+* Do you need a date collection or data range for an experiment? 
+* Do you need to indicate the type of data in that file name? 
+* Other conditions or version number in a file? 
+
+Some general tips are to document your naming convention and be consistent. It makes it a lot easier to come back to you data if you know how you document and named all of the files. It’s a good idea to avoid using special characters like question marks or asterisks, punctuation. Not all operating systems will allow or handle them in the same way. 
+
+Not using spaces in files name is also a good recommendation, so use underscores or camel case where you capitalize new words. 
+
+Use a date format that is consistent. The general recommendation is to go by year, month, day separated by dashes or no spaces in between (i.e. 2025-10-08 or 20251008).
+
+Use some form of version control naming such as v1, v1.2, v2 at the end of the file name. Using the word final doesn’t tend to be very helpful because sometimes you have to back to your final version then you have final final or final final for real. And those things are a little harder to trace back if you’re going to your data a month or two later.
+
+## Documentation Examples
+Some common types of data documentation include data dictionaries, survey instruments, codebooks, and readme files. 
+
+A dictionary explains how all the variables are coded. 
+
+You might also have a codebook. In a qualitative study that codebook usually describes what the codes are that you’ve assigned to particular topics in your data as you do the analysis. It’s a bit different than a codebook in a quantitative study. 
+
+You might also have lab notebooks (print or electronic). You could have field notes and memos, and those may be done in a software, or they may be handwritten or transcribed. 
+
+You could have scripts or code. You may have full-on computing environments particularly if you’re doing modeling of data.
+
+## Readme Example
+Project: Kristin’s important chemistry project
+Date: June 2013-April 2014
+Description: Description of my awesome project here
+Funder: Department of Energy, grant no: XXXXXX
+Contact: Kristin Briney, kristin@myemail.com
+
+ORGANIZATION
+All files live in the ‘ImportantProject’ folder, with content organized into subfolders as follows:
+* ‘RawData’: All raw data goes into this folder, with subfolders organized by date
+* ‘AnalyzedData’: Data analysis files
+* ‘PaperDrafts’: Draft of paper, including text, figures, outlines, reference library, etc.
+* ‘Documentation’: Scanned copies of my written research notes and other research notes
+* ‘Miscellaneous’: Other information that relates to this project
+ 
+NAMING as follows:
+“YYYYMMDD_experiment_sample_ExpNum”
+(ex: “20140224_UVVis_KMnO4_2.csv”)
+
+Raw data files will be named
+STORAGE
+All files will be stored on my computer and backed up daily to the shared department server. I will also keep a backup copy in the cloud using SpiderOak.
+
+# Active Storage
+In order to select appropriate data storage, you are going to want to think about what systems have appropriate security. Do you need different locations for different versions? Do you have master copies that you’re making a working copy off of? Do you have identifiable and deidentified transcripts that you need to store separately from each other? Do you have a process or processes for transferring data? For graduate students, your supervisor may need to be able to access your data. Do you have a way for them to do so? How will your data be back up and where? It's a good idea to have a backup system separate from your active storage.
+
+# Backups
+Having back up copies of your data helps to protect your from data loss (e.g., in the event of a power failure, hardware failure, virus, hacking, or human error). Having geographically distributed copies of your data can also provide a measure of protection from risks that are geographically bounded (e.g., a break in at your lab, a natural disaster). A useful general recommendation for backups is the 3-2-1 rule:
+* Have at least 3 copies of your data.
+* Have your data in at least two different locations (i.e., local and off-site copies)
+* Use more than one type of storage media
+
+You should periodically check your backups to ensure you can still access your data, and if you are using an automated system, that it is working properly. If you use computers provided by AU, they do backups, so you may want to check with IT about what is being backed up.
+
+Ensure you understand how any cloud service you’re using works. Some keep distributed copies, but if you delete an item, you delete them all. They don’t necessarily protect from user error.
+
+# Long-term Storage / Data Deposit
+Consider what purposes you are keeping the data for and what value you see it having (for you or others in your field if you intend to share it).
+ 
+* What value does the data have long-term?
+* Can the data be reproduced?
+* Are the observations unrepeatable?
+* How difficult or cost intensive would it be to reproduce?
+* Are their barriers to reusing the data:
+* Will you collect the data under conditions that permit reuse?
+* Is the data independent or is specific software or equipment needed to access or interpret it? 
+* Will the data be unique (will your copy be the only copy or is there a copy of the data held by another body)? E.g., if you are doing secondary data analysis, someone else may have the master copy.
+ 
+For what purpose(s) are you keeping the data? Anticipated future use can affect what you need to keep. 
+* Do you need to comply with a funder or institutional requirement to retain data for set a time period or deposit data in a repository? 
+* Are you planning on publishing in a journal that requires you to share the data?
+* What data needs to be retained to verify your results?
+* Do you plan to do future analyses or see value in making the data available to other researchers for future analyses?
+* Do you plan to use the data for teaching and learning purposes?
+
+Some funders have retention policies and keeping data a minimum of 5 years is recommended by our ethics board (based on a CIHR policy). 
+
+As a student, is it you keeping your data or does it remain with your supervisor’s lab or team?
+
+# Data Deposit
+Data deposit is referring to research data when it’s collected as part of a research project being transferred to a data repository. That repository should have policies describing data deposit, access control, preservation, storage, backup, sustainability, and succession planning. The idea here is as a researcher, you’re actually transferring a data set to the repository for long-term stewardship. A part of the repository services is that they’re helping ensure that that data remains accessible or is shareable.Not all repositories necessarily guarantee preservation but they are often used as access or publishing platforms.
+
+Although not yet a requirement, data deposit and sharing contributes to open scholarship. Not all data may be able to be made open or deposited in full. Planning for deposit and sharing should be carefully thought out.
+
+There are different repositories, one is disciplinary repositories. Depending on you discipline, there may be a well established repository you can use. In the bioinformatics fields there are genbanks, gene repositories, that are very well established and commonly used. 
+
+Another type of repository is an institutional repository. AU does have an institutional repository that you can use through the library. We can help you think about how you need to organize and describe your data and then it goes on the platform and can be made available. 
+
+Lastly, there are generalist repositories that aren’t specific to a discipline and will take data of any type. AU's institutional repository is also a generalist repository. The Federated Research Data Repository (FRDR) is an option for medium to large data sets with a default storage allocation of 1 terabyte. It is a national repository run by the Digital Research Alliance of Canada and they can take larger data sets than our institutional repository can.
+
+When selecting a repository for your dataset consider:
+* **Fit for your project and discipline**
+
+* **Curation** -- Some repositories are curated and will have criteria your data needs to meet before deposit. Curators can work with you to help make your data more "FAIR" -- findable, accessible, interoperable, and reusable (GO FAIR, n.d.). 
+
+* **Persistent Identifiers** -- Most repositories should provide you with a persistent identifier (e.g., a DOI), which makes your data easier to find and cite. Whether or not a repository will issue a PID is something you may want to check in advance, especially if need a PID to comply with any other policies your research is subject too (e.g., some publishers require that data associated with your publication be deposited and that you provide them with a PID).
+
+* **Preservation** -- Not all repositories are necessarily intended for long-term preservation. You will want to know if they have established commitments to preserve the data for a specified time period. The time period may be determined based on continued value of the data set over time.
+
+* **Certification** -- Some repositories are certified as compliant with a particular set of standards. Examples of standards include the CoreTrust Seal Trustworthy Data Repository Requirements and Trusted Digital Repository (TDR) designation -- ISO 16363. Note that within the Canadian repository landscape not all repositories have sought or are able to seek certification.
+
+
+
+
+
+
