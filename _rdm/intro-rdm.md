@@ -14,17 +14,17 @@ We will then move into discussing emerging requirements for RDM in the funding a
 We all also dive into RDM considerations for creating a data management plan before creating a data management plan with [DMP Assistant](https://dmp-pgd.ca/){:target="_blank"}.
 
 # Handout
-[Download Handout](/assets/pdf/2025-10-15_IntroToRDM_handout.pdf){:target="_blank"}
+[Download Handout](/assets/pdf/2026-02-11_IntroToRDM_handout.pdf){:target="_blank"}
 
-<iframe src="/assets/pdf/2025-10-15_IntroToRDM_handout.pdf" 
+<iframe src="/assets/pdf/2026-02-11_IntroToRDM_handout.pdf" 
     style="width:100%; height:80vh; border:none;"
     allowfullscreen></iframe>
 
 # Slides
-[Download Slides](/assets/pdf/2025-10-15_FGSseries_IntroToRDM_Slides.pdf){:target="_blank"}
+[Download Slides](/assets/pdf/2026-02-11_FGSseries_IntroToRDM_Slides.pdf){:target="_blank"}
 
 <iframe 
-  src="/assets/pdf/2025-10-15_FGSseries_IntroToRDM_Slides.pdf"
+  src="/assets/pdf/2026-02-11_FGSseries_IntroToRDM_Slides.pdf"
   style="width:100%; height:80vh; border:none;"
   allowfullscreen></iframe>
 
